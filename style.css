@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif; /* Setting a default font */
+    background-color: #f4f4f4;     /* Light gray background */
+    margin: 0;                      /* Resetting default margin */
+    padding: 0;                     /* Resetting default padding */
+}
+
+/* Styling for the main container */
+.container {
+    display: flex;                  /* Using flexbox for layout */
+    max-width: 1200px;              /* Maximum width of the container */
+    margin: 20px auto;              /* Centering the container with auto margins */
+    padding: 20px;                  /* Padding inside the container */
+    background-color: #fff;         /* White background for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+
+/* Styling for the movie menu (list of movies) */
+#films {
+    width: 30%;                    /* Taking up 30% of the container's width */
+    list-style-type: none;         /* Removing default list bullet points */
+    padding: 0;                    /* Resetting default padding */
+    margin: 0;                     /* Resetting default margin */
+}
+
+/* Styling for each movie item in the list */
+.film.item {
+    padding: 10px;                 /* Padding for each item */
+    border-bottom: 1px solid #e1e1e1; /* Border at the bottom of each item */
+    cursor: pointer;               /* Changing cursor to indicate clickability */
+}
+
+/* Hover effect for movie items */
+.film.item:hover {
+    background-color: #f9f9f9;    /* Changing background on hover */
+}
+
+/* Styling for sold-out movies */
+.sold-out {
+    color: red;                    /* Red text color for sold-out movies */
+}
+
+/* Styling for the movie details section */
+.movie-details {
+    width: 70%;                    /* Taking up 70% of the container's width */
+    padding-left: 20px;            /* Padding on the left side */
+}
+
+/* Styling for the movie poster image */
+#movie-poster {
+    max-width: 100%;               /* Ensuring the image doesn't overflow */
+    height: auto;                  /* Keeping the original aspect ratio */
+}
+
+/* Styling for the "Buy Ticket" button */
+#buy-ticket {
+    padding: 10px 20px;            /* Padding for the button */
+    background-color: #007BFF;     /* Blue background color */
+    color: #fff;                   /* White text color */
+    border: none;                  /* Removing default border */
+    cursor: pointer;               /* Changing cursor to indicate clickability */
+    margin-top: 10px;              /* Margin at the top for spacing */
+}
+
+/* Hover effect for the "Buy Ticket" button */
+#buy-ticket:hover {
+    background-color: #0056b3;    /* Darker blue on hover */
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic meta tags for character set and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Theater</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Main container for the entire content -->
+    <div class="container">
+        <!-- Movie Menu: List of all movies -->
+        <ul id="films">
+            <!-- Placeholder item which can be removed later via JS or manually -->
+            <li class="film item">Placeholder</li>
+        </ul>
+
+        <!-- Movie Details: Displays details of the selected movie -->
+        <div class="movie-details">
+            <!-- Image tag for the movie poster -->
+            <img id="movie-poster" src="" alt="Movie Poster">
+            <!-- Heading for the movie title -->
+            <h2 id="movie-title"></h2>
+            <!-- Paragraphs for runtime and showtime -->
+            <p><strong>Runtime:</strong> <span id="movie-runtime"></span></p>
+            <p><strong>Showtime:</strong> <span id="movie-showtime"></span></p>
+            <!-- Display available tickets -->
+            <p><strong>Available Tickets:</strong> <span id="available-tickets"></span></p>
+            <!-- Button to buy a ticket -->
+            <button id="buy-ticket">Buy Ticket</button>
+        </div>
+    </div>
+
+    <!-- Link to the JavaScript file to handle dynamic functionalities -->
+    <script src="./script.js"></script>
+</body>
+</html>
